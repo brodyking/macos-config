@@ -35,7 +35,7 @@ i dont personally use desktop wallpapers, but do whatever you want.
 [iterm2](https://github.com/gnachman/iTerm2) - better terminal (terminal.app has weak color support)
 ```brew install iterm2```
 
-[karabiner-elements](https://github.com/pqrs-org/Karabiner-Elements) - keyboard remaps (i remap f3 to launchpad because im weird)
+[karabiner-elements](https://github.com/pqrs-org/Karabiner-Elements) - keyboard remaps (remap f3 => launchpad)
 ```brew install karabiner-elemets```
 
 [linearmouse](https://github.com/linearmouse/linearmouse) - scrolling direction on mouse vs trackpad
