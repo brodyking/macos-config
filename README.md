@@ -6,10 +6,10 @@ this is my list of macos apps and settings that are required to make macos work 
 
 ## table of contents
 
-1. [basic configuration](basic-configuration)
-2. [apps](full-list-of-apps)
-3. [vscode configuration](vscode)
-4. [firefox configuration](firefox)
+1. [basic configuration](#basic-configuration)
+2. [apps](#full-list-of-apps)
+3. [vscode configuration](#vscode)
+4. [firefox configuration](#firefox)
 
 ## basic configuration
 you will need [alttab](https://github.com/lwouis/alt-tab-macos), [firefox](https://www.mozilla.org/en-US/firefox/), and [rectangle](https://github.com/rxhanson/Rectangle). these are necessities
