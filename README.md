@@ -1,4 +1,4 @@
-# macos-apps
+# macos-config
 this is my list of macos apps and settings that are required to make macos work well with my (or any productive persons) workflow.
 
 ![pic of my desktop](desktop.png)
