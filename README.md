@@ -44,6 +44,9 @@ i dont personally use desktop wallpapers, but do whatever you want.
 [monitorcontrol](https://github.com/MonitorControl/MonitorControl) - dim external displays
 ```brew install monitorcontrol```
 
+[mpv](https://github.com/mpv-player/mpv) - great video player
+```brew install mpv```
+
 [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#macos) - python version control because macos ships with outdated python
 ```brew install pyenv```
 
