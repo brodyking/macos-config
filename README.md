@@ -47,8 +47,7 @@ i dont personally use desktop wallpapers, but do whatever you want.
 [mpv](https://github.com/mpv-player/mpv) - great video player
 ```brew install mpv```
 
-[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) - easy terminal customization
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) - easy terminal customization ([my config](.zshrc))
 
 [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#macos) - python version control because macos ships with outdated python
 ```brew install pyenv```
