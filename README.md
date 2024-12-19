@@ -32,7 +32,7 @@ i dont personally use desktop wallpapers, but do whatever you want.
 [firefox](https://www.mozilla.org/en-US/firefox/) - web browser
 ```brew install firefox```
 
-[iterm2](https://github.com/gnachman/iTerm2) - better terminal (terminal.app has weak color support)
+[iterm2](https://github.com/gnachman/iTerm2) - better terminal (terminal.app has weak color support) ([my config](iterm.json))
 ```brew install iterm2```
 
 [karabiner-elements](https://github.com/pqrs-org/Karabiner-Elements) - keyboard remaps (remap f3 => launchpad)
