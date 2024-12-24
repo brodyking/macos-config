@@ -2,7 +2,7 @@
 this is my list of macos apps and settings that are required to make macos work well with my (or any productive persons) workflow.
 
 ![pic of my desktop](screenshot.png)
-*last updated november 27, 2024*
+*last updated dec 23, 2024*
 
 ## table of contents
 
