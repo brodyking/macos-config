@@ -86,7 +86,7 @@ extensions
 this is legit the best thing ever made. saves a ton of mouse movement with the ```f``` key.
 3. [sponsorblock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
 
-4. ## useful extras
+## useful extras
 
 This command will reset your launchpad. In sequoia the old one does not work. This came in handy for me.
 ```
