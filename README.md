@@ -10,6 +10,7 @@ this is my list of macos apps and settings that are required to make macos work 
 2. [apps](#full-list-of-apps)
 3. [vscode configuration](#vscode)
 4. [firefox configuration](#firefox)
+5. [useful extras](#useful-extras)
 
 ## basic configuration
 you will need [alttab](https://github.com/lwouis/alt-tab-macos), [firefox](https://www.mozilla.org/en-US/firefox/), and [rectangle](https://github.com/rxhanson/Rectangle). these are necessities
@@ -84,3 +85,11 @@ extensions
 2. [vimium](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
 this is legit the best thing ever made. saves a ton of mouse movement with the ```f``` key.
 3. [sponsorblock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
+
+4. ## useful extras
+
+This command will reset your launchpad. In sequoia the old one does not work. This came in handy for me.
+```
+sudo find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock
+```
+
