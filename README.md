@@ -2,7 +2,7 @@
 this is my list of macos apps and settings that are required to make macos work well with my (or any productive persons) workflow.
 
 ![pic of my desktop](screenshot.png)
-*last updated jan 20, 2025*
+*last updated march 1st, 2025*
 
 ## table of contents
 
@@ -24,8 +24,6 @@ defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock
 i dont personally use desktop wallpapers, but do whatever you want.
 
 ## full list of apps
-[alttab](https://github.com/lwouis/alt-tab-macos) - a funcitonal CMD+Tab menu.
-```brew install alttab```
 
 [bartender](https://www.macbartender.com/Bartender5/) - hide elements on menu bar
 ```brew install bartender```
@@ -38,9 +36,6 @@ i dont personally use desktop wallpapers, but do whatever you want.
 
 [karabiner-elements](https://github.com/pqrs-org/Karabiner-Elements) - keyboard remaps (remap f3 => launchpad)
 ```brew install karabiner-elemets```
-
-[linearmouse](https://github.com/linearmouse/linearmouse) - scrolling direction on mouse vs trackpad
-```brew install linearmouse```
 
 [monitorcontrol](https://github.com/MonitorControl/MonitorControl) - dim external displays
 ```brew install monitorcontrol```
@@ -55,6 +50,9 @@ i dont personally use desktop wallpapers, but do whatever you want.
 
 [rectangle](https://github.com/rxhanson/Rectangle) - window snapping + keybinds
 ```brew install rectangle```
+
+[scroll-reverser](https://github.com/pilotmoon/Scroll-Reverser) - reverses scrolling on macos
+```brew install scroll-reverser```
 
 [spaceid](https://github.com/dshnkao/SpaceId) - show which space you are in on the menu bar
 ```brew install spaceid```
