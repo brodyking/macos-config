@@ -63,13 +63,14 @@ i dont personally use desktop wallpapers, but do whatever you want.
 ## vscode
 i would use neovim, or really anything else if getting a LSP to work was not such a pain. 
 
-theme: [macos modern theme](https://marketplace.visualstudio.com/items?itemName=davidbwaters.macos-modern-theme&ssr=false#review-details)
+theme: [github dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+
+my settings.json file is located [here](/vscode/settings.json)
 
 *i would reccomend turning on cursor smooth caret animation, it looks really nice, especially on a high refresh rate screen*
 
 extensions
 1. [vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - i set the status bar color control to true so it is more obvious what mode i am in. also turn on relative line numbers, its very helpful.
-2. [extension pack for java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) - this is only necessary if you do java development.
 
 ## chromium
 i used to only use firefox because google dosent need any more control over my life. i gave up.
