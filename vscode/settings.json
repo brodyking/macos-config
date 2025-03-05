@@ -1,0 +1,42 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "GitHub Dark",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.minimap.enabled": false,
+    "vim.useSystemClipboard": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": [
+        "#1F2328",
+        "#79B9FF"
+    ],
+    "vim.statusBarColors.visual": [
+        "#1F2428",
+        "#35D058"
+    ],
+    "vim.statusBarColors.insert": [
+        "#1F2428",
+        "#B392F0"
+    ],
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.colorCustomizations": {
+        "statusBar.foreground": "#B392F0",
+        "statusBar.debuggingForeground": "#B392F0",
+        "editor.lineHighlightBorder": "#156FDB",
+        "editor.lineHighlightBackground": "#1F2428",
+        "statusBar.background": "#1F2428",
+        "statusBar.noFolderBackground": "#1F2428",
+        "statusBar.debuggingBackground": "#1F2428"
+    },
+    "workbench.editor.showIcons": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "debug.enableStatusBarColor": false,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.fontFamily": "Ubuntu Mono",
+    "editor.fontSize": 13
+}
