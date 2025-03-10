@@ -1,6 +1,5 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Fleet Palenight",
     "vsicons.dontShowNewVersionMessage": true,
     "editor.minimap.enabled": false,
     "vim.useSystemClipboard": true,
@@ -28,5 +27,6 @@
     "workbench.navigationControl.enabled": false,
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
-    "workbench.activityBar.location": "top"
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Fleet Palenight"
 }
