@@ -2,7 +2,7 @@
 this is my list of macos apps and settings that are required to make macos work well with my (or any productive persons) workflow.
 
 ![pic of my desktop](screenshot.png)
-*last updated march 1st, 2025*
+*last updated march 9th, 2025*
 
 ## table of contents
 
@@ -63,11 +63,11 @@ i dont personally use desktop wallpapers, but do whatever you want.
 ## vscode
 i would use neovim, or really anything else if getting a LSP to work was not such a pain. 
 
-theme: [github dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+theme: [JetBrains Fleet Dark - Fleet Palenight](https://marketplace.visualstudio.com/items?itemName=FranzGollhammer.jb-fleet-dark)
 
 my settings.json file is located [here](/vscode/settings.json)
 
-*i would reccomend turning on cursor smooth caret animation, it looks really nice, especially on a high refresh rate screen*
+*i would recommend turning on cursor smooth caret animation, it looks really nice, especially on a high refresh rate screen*
 
 extensions
 1. [vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - i set the status bar color control to true so it is more obvious what mode i am in. also turn on relative line numbers, its very helpful.
