@@ -1,8 +1,8 @@
 {
     "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Catppuccin Frappé",
     "vsicons.dontShowNewVersionMessage": true,
     "editor.minimap.enabled": false,
-    "vim.useSystemClipboard": true,
     "vim.statusBarColorControl": false,
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
@@ -10,10 +10,9 @@
     "zenMode.hideLineNumbers": false,
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBorder": "#1b1f237f",
-        "editor.lineHighlightBackground": "#21222C",
+        "editor.lineHighlightBorder": "#242634",
+        "editor.lineHighlightBackground": "#2A2C3C",
     },
-    "workbench.layoutControl.enabled": false,
     "debug.enableStatusBarColor": false,
     "editor.smoothScrolling": true,
     "terminal.integrated.smoothScrolling": true,
@@ -28,5 +27,49 @@
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "Fleet Palenight"
+    "vim.useSystemClipboard": true,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+    "markdown-preview-enhanced.revealjsTheme": "black.css",
+    "VSCodeCounter.exclude": [
+        "**/.gitignore",
+        "**/.vscode/**",
+        "**/node_modules/**",
+        "**/assets/**"
+    ],
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editorAssociations": {
+        "*.doc": "default"
+    },
+    "vim.overrideCopy": false,
+    "vim.handleKeys": {
+        "<C-b>": false,
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-w>": false,
+        "<C-p>": false,
+        "<C-f>": false
+    },
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "terminal.integrated.fontFamily": "Ubuntu Mono",
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    }
 }
