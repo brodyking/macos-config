@@ -6,7 +6,7 @@ this is my list of macos apps and settings that are required to make macos work 
 
 | last updated    |
 | --------------- |
-| april 6th, 2025 |
+| may 29th, 2025 |
 
 ## table of contents
 
@@ -19,6 +19,10 @@ this is my list of macos apps and settings that are required to make macos work 
   - [chrome](#chrome)
   - [iterm2](#iterm2)
   - [useful extras](#useful-extras)
+    - [resetting launchpad](#resetting-launchpad)
+    - [ds\_store files](#ds_store-files)
+    - [backups with rsync](#backups-with-rsync)
+    - [hiding menu bar shortcuts](#hiding-menu-bar-shortcuts)
 
 ## basic configuration
 
@@ -109,17 +113,43 @@ not much to say here. i used [this color preset](iterm2/catppuccin-frappe.itermc
 
 ## useful extras
 
-this command will reset your launchpad. in sequoia the old one does not work. this came in handy for me.
+here are some things i wish i knew about earlier.
+
+### resetting launchpad
+
+in sequoia the old one does not work. this came in handy for me.
 
 ```bash
 sudo find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock
 ```
+
+### ds_store files
 
 this command will delete all .DS_Store files recursively
 
 ```bash
 find . -name ".DS_Store" -delete
 ```
+
+### music backups with rsync
+
+i use this command to backup my music library quickly. make sure to install `rsync` with brew, macos comes with an old version.
+
+`P` - progress and partial, `a` for archival, `r` for recursive, `v` for verbose, `h` for human readable. replace `/Volumes/Backup` with wherever your destination is.
+
+```bash
+rsync ~/Music/Music /Volumes/Backup -Parvh
+```
+
+### fix stuck on preparing to sync iphone
+
+made this a shortcut. apple has had 10 years to fix this and still has not.
+
+```bash
+pkill -9 "MDCrashReportTool"
+```
+
+### hiding menu bar shortcuts
 
 these applescripts will hide/show the menu bar. you can put these into the shortcuts app to bind them to keyboard shortcuts.
 
