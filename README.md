@@ -6,7 +6,7 @@ this is my list of macos apps and settings that are required to make macos work 
 
 | last updated    |
 | --------------- |
-| may 29th, 2025 |
+| july 14th, 2025 |
 
 ## table of contents
 
@@ -147,6 +147,14 @@ made this a shortcut. apple has had 10 years to fix this and still has not.
 
 ```bash
 pkill -9 "MDCrashReportTool"
+```
+
+### reset login items database
+
+this gets rid of old apps that have been uninstalled from the login items menu.
+
+```bash
+sfltool resetbtm
 ```
 
 ### hiding menu bar shortcuts
