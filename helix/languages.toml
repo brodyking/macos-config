@@ -1,0 +1,11 @@
+[[language]]
+name = "html"
+auto-format = true
+
+[[language]]
+name = "php"
+auto-format = true
+
+[[language]]
+name = "javascript"
+auto-format = true

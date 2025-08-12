@@ -1,0 +1,41 @@
+# Theme
+theme = "catppuccin_mocha"
+
+# Basic Editor Configuration
+[editor]
+line-number = "relative"
+mouse = true
+bufferline = "multiple"
+color-modes = true
+
+# Statusline. 
+[editor.statusline]
+# Items in statusline
+left = ["mode", "spinner", "version-control"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+# Misc
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+# Goes to line end
+"$" = ["extend_to_line_end"]
+"0" = ["goto_line_start"]
+"D" = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
+"C-n" = [":buffer-next"]
+"C-t" = [":new"]
+"C-q" = [":buffer-close"]
+"C-Q" = [":buffer-close!"]
