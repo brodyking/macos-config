@@ -9,3 +9,5 @@ ctrl + cmd - m : open /System/Applications/Music.app
 # Iterm
 ctrl + cmd - 3 : open /Applications/iTerm.app
 ctrl + cmd - t : open /Applications/iTerm.app
+# Chrome
+ctrl + cmd - c : open "/Applications/Google Chrome.app"
