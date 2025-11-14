@@ -1,6 +1,6 @@
 [[language]]
 name = "html"
-auto-format = true
+auto-format = false
 
 [[language]]
 name = "php"
@@ -8,4 +8,17 @@ auto-format = true
 
 [[language]]
 name = "javascript"
+auto-format = true
+
+[[language]]
+name = "typescript"
+auto-format = true
+
+[[language]]
+name = "tsx"
+auto-format = true
+
+[[language]]
+name = "markdown"
+formatter = { command = "deno", args = ["fmt", "-", "--ext", "md"] }
 auto-format = true
