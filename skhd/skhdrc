@@ -1,13 +1,13 @@
 # Finder
-ctrl + cmd - f : open /System/Library/CoreServices/Finder.app
+ctrl - 0x32 : open /System/Library/CoreServices/Finder.app
 # Zen
-ctrl + cmd - 1 : open /Applications/Zen.app
+ctrl - 1 : open /Applications/Zen.app
 ctrl + cmd - z : open /Applications/Zen.app
 # Music
-ctrl + cmd - 2 : open /System/Applications/Music.app
+ctrl - 2 : open /System/Applications/Music.app
 ctrl + cmd - m : open /System/Applications/Music.app
 # Iterm
-ctrl + cmd - 3 : open /Applications/iTerm.app
+ctrl - 3 : open /Applications/iTerm.app
 ctrl + cmd - return : open /Applications/iTerm.app
 # Chrome
-ctrl + cmd - c : open "/Applications/Google Chrome.app"
+ctrl + shift - 1 : open "/Applications/Google Chrome.app"
