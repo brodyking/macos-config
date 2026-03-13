@@ -5,7 +5,7 @@ applications and their configurations
 
 (to see my old v1 setup, [click here](./v1.md))
 
-**Last Modified:** November 14, 2025
+**Last Modified:** March 12, 2026
 
 ![Picture of my desktop](./v2.png)
 
@@ -126,3 +126,12 @@ end tell
 This reduces the animation time when hovering to make the dock appear.
 
 `defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock`
+
+### Converting from flac to alac
+
+This is great for slsk files when using iTunes/Music.app
+
+```
+export IFS=$'\n'
+for x in `ls *.flac`; do afconvert -v -f m4af -d alac $x ${x%flac}m4a; done
+```
