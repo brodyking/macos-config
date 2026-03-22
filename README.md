@@ -135,3 +135,11 @@ This is great for slsk files when using iTunes/Music.app
 export IFS=$'\n'
 for x in `ls *.flac`; do afconvert -v -f m4af -d alac $x ${x%flac}m4a; done
 ```
+
+### Yt-dlp download at 720p
+
+Add the following to make the download 720p
+
+```
+-S vcodec:h264,fps,res:720,acodec:m4a
+```
