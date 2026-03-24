@@ -13,13 +13,14 @@ applications and their configurations
 
 <!--toc:start-->
 
-- [My MacOS setup and configuration](#my-macos-setup-and-configuration)
+- [My MacOS setup and configuration (v2)](#my-macos-setup-and-configuration-v2)
   - [Table of contents](#table-of-contents)
   - [Apps](#apps)
     - [Browser - Zen](#browser-zen)
     - [Terminal - iTerm2](#terminal-iterm2)
     - [Keyboard Shortcuts - skhd](#keyboard-shortcuts-skhd)
     - [Window Management - Rectangle](#window-management-rectangle)
+    - [Editor - Helix](#editor-helix)
   - [Terminal Commands](#terminal-commands)
     - [Resetting the Launchpad](#resetting-the-launchpad)
     - [Delete DS_Store Files](#delete-dsstore-files)
@@ -27,6 +28,9 @@ applications and their configurations
     - [Reset Login Items Database](#reset-login-items-database)
     - [Hiding menu bar shortcuts](#hiding-menu-bar-shortcuts)
     - [Faster dock animation speed](#faster-dock-animation-speed)
+    - [Converting from flac to alac](#converting-from-flac-to-alac)
+    - [Yt-dlp download at 720p](#yt-dlp-download-at-720p)
+    - [Reset airplay](#reset-airplay)
 
 <!--toc:end-->
 
@@ -142,4 +146,12 @@ Add the following to make the download 720p
 
 ```
 -S vcodec:h264,fps,res:720,acodec:m4a
+```
+
+### Reset airplay
+
+When my airplay isn't working I run this command
+
+```
+sudo ifconfig awdl0 down;sudo ifconfig awdl0 up;
 ```
