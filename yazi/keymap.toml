@@ -1,0 +1,20 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "m" ]
+run  = "cd ~/Music"
+desc = "Goto music"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "cd ~/GitHub"
+desc = "Goto github repos"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "v" ]
+run  = "cd /Volumes"
+desc = "Goto volumes"
+
+[[manager.prepend_keymap]]
+on   = [ "p" ]
+run  = 'shell --block -- python3 "$0"'
+desc = "Run Python script"
+for  = "linux"

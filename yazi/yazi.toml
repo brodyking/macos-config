@@ -1,0 +1,7 @@
+[plugin]
+prepend_previewers = [
+    { mime = "audio/*",   run = "exifaudio"}
+]
+[opener]
+play = [ { run = "mpv %s", orphan = true, for = "unix" } ]
+
