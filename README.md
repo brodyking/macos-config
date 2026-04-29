@@ -5,14 +5,13 @@ applications and their configurations
 
 (to see my old v2 setup, [click here](./assets/v2.md))
 
-**Last Modified:** April 22, 2026
+**Last Modified:** April 28, 2026
 
 ![Picture of my desktop](./assets/v3.png)
 
 ## Table of contents
 
 <!--toc:start-->
-
 - [My MacOS setup and configuration (v3)](#my-macos-setup-and-configuration-v3)
   - [Table of contents](#table-of-contents)
   - [Apps](#apps)
@@ -31,7 +30,8 @@ applications and their configurations
     - [Converting from flac to alac](#converting-from-flac-to-alac)
     - [Yt-dlp download at 720p](#yt-dlp-download-at-720p)
     - [Reset airplay](#reset-airplay)
-
+    - [Uninstall all python packages](#uninstall-all-python-packages)
+    - [Drag apps from anywhere](#drag-apps-from-anywhere)
 <!--toc:end-->
 
 ## Apps
@@ -163,4 +163,12 @@ This is more obscure, but I have found it useful.
 
 ```
 pip freeze | xargs pip uninstall -y
+```
+
+### Drag apps from anywhere
+
+I use this very frequently. By holding `cmd` and `ctrl`, you can drag a window from any point without having to drag from the top bar.
+
+```
+defaults write -g NSWindowShouldDragOnGesture -bool true
 ```
