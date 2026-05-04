@@ -1,24 +1,23 @@
-# My MacOS setup and configuration (v3)
+# My MacOS setup and configuration (v4)
 
 This is my personal configuration for macos, and a common list of my favorite
-applications and their configurations
+applications and their configurations.
 
-(to see my old v2 setup, [click here](./assets/v2.md))
+(to see my old v3 setup, [click here](./assets/v3.md))
 
-**Last Modified:** April 28, 2026
+**Last Modified:** May 4, 2026
 
-![Picture of my desktop](./assets/v3.png)
+![Picture of my desktop](./assets/v4.png)
 
 ## Table of contents
 
 <!--toc:start-->
-- [My MacOS setup and configuration (v3)](#my-macos-setup-and-configuration-v3)
+- [My MacOS setup and configuration (v4)](#my-macos-setup-and-configuration-v4)
   - [Table of contents](#table-of-contents)
   - [Apps](#apps)
-    - [Browser - Chrome](#browser-chrome)
+    - [Browser - Ungoogled-Chromium](#browser-ungoogled-chromium)
     - [Terminal - iTerm2](#terminal-iterm2)
-    - [Keyboard Shortcuts - skhd](#keyboard-shortcuts-skhd)
-    - [Window Management - Rectangle](#window-management-rectangle)
+    - [Window Manager and Hotkeys - Aerospace](#window-manager-and-hotkeys-aerospace)
     - [Editor - Helix](#editor-helix)
   - [Terminal Commands](#terminal-commands)
     - [Resetting the Launchpad](#resetting-the-launchpad)
@@ -38,11 +37,10 @@ applications and their configurations
 
 Here are some of my most used apps
 
-### Browser - Chrome
+### Browser - Ungoogled-Chromium
 
 I used to use [Zen](https://zen-browser.app/) alot, but I've come to hate
-Firefox's developer tools. If you care about privacy, use
-[Librewolf](https://librewolf.net/)
+Firefox's developer tools. If you care about privacy, use [Librewolf](https://librewolf.net/). 
 
 ### Terminal - iTerm2
 
@@ -52,15 +50,10 @@ I use [iTerm2](https://iterm2.com/) because it has a pretty easy setup.
   [Catppuccin theme for iTerm2](https://github.com/catppuccin/iterm).
 - **Font:** CaskaydiaCove Nerd Font Mono, Regular, 16
 
-### Keyboard Shortcuts - skhd
+### Window Manager and Hotkeys - Aerospace
 
-[skhd](https://github.com/koekeishiya/skhd) is a great hotkey daemon. Better
-than most and easy configuration.
-
-### Window Management - Rectangle
-
-[Rectangle](https://rectangleapp.com/) is amazing. Much, much, much better than
-macos's version of window management. One day I will learn yabai.
+I used to use [Rectangle](https://rectangleapp.com/), but I have since moved to [Aerospace](https://github.com/nikitabobko/AeroSpace).
+It is a tiling window manager similar to i3. All my hotkeys are set through Aerospace aswell.
 
 ### Editor - Helix
 
