@@ -12,6 +12,7 @@ applications and their configurations.
 ## Table of contents
 
 <!--toc:start-->
+
 - [My MacOS setup and configuration (v4)](#my-macos-setup-and-configuration-v4)
   - [Table of contents](#table-of-contents)
   - [Apps](#apps)
@@ -20,6 +21,7 @@ applications and their configurations.
     - [Window Manager and Hotkeys - Aerospace](#window-manager-and-hotkeys-aerospace)
     - [Editor - Helix](#editor-helix)
   - [Terminal Commands](#terminal-commands)
+    - [No accent menu, just key repeat](#no-accent-menu-just-key-repeat)
     - [Resetting the Launchpad](#resetting-the-launchpad)
     - [Delete DS_Store Files](#delete-dsstore-files)
     - [Fix Phone Syncing](#fix-phone-syncing)
@@ -31,6 +33,7 @@ applications and their configurations.
     - [Reset airplay](#reset-airplay)
     - [Uninstall all python packages](#uninstall-all-python-packages)
     - [Drag apps from anywhere](#drag-apps-from-anywhere)
+
 <!--toc:end-->
 
 ## Apps
@@ -40,7 +43,8 @@ Here are some of my most used apps
 ### Browser - Ungoogled-Chromium
 
 I used to use [Zen](https://zen-browser.app/) alot, but I've come to hate
-Firefox's developer tools. If you care about privacy, use [Librewolf](https://librewolf.net/). 
+Firefox's developer tools. If you care about privacy, use
+[Librewolf](https://librewolf.net/).
 
 ### Terminal - iTerm2
 
@@ -52,8 +56,9 @@ I use [iTerm2](https://iterm2.com/) because it has a pretty easy setup.
 
 ### Window Manager and Hotkeys - Aerospace
 
-I used to use [Rectangle](https://rectangleapp.com/), but I have since moved to [Aerospace](https://github.com/nikitabobko/AeroSpace).
-It is a tiling window manager similar to i3. All my hotkeys are set through Aerospace aswell.
+I used to use [Rectangle](https://rectangleapp.com/), but I have since moved to
+[Aerospace](https://github.com/nikitabobko/AeroSpace). It is a tiling window
+manager similar to i3. All my hotkeys are set through Aerospace aswell.
 
 ### Editor - Helix
 
@@ -67,6 +72,15 @@ Just be careful, once you start using it, its hard to stop.
 All configuration can be found in this repo.
 
 ## Terminal Commands
+
+### No accent menu, just key repeat
+
+To disable that stupid macos accent key menu, run this command. Requires restart
+per app after applying for the first time.
+
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
 
 ### Resetting the Launchpad
 
@@ -160,7 +174,8 @@ pip freeze | xargs pip uninstall -y
 
 ### Drag apps from anywhere
 
-I use this very frequently. By holding `cmd` and `ctrl`, you can drag a window from any point without having to drag from the top bar.
+I use this very frequently. By holding `cmd` and `ctrl`, you can drag a window
+from any point without having to drag from the top bar.
 
 ```
 defaults write -g NSWindowShouldDragOnGesture -bool true
