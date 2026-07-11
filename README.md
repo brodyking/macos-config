@@ -1,6 +1,6 @@
 # My MacOS setup and configuration (v4)
 
-This is my personal configuration for macos, and a common list of my favorite
+This is my personal configuration for MacOS, and a common list of my favorite
 applications and their configurations.
 
 (to see my old v3 setup, [click here](./assets/v3.md))
