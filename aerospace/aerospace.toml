@@ -41,8 +41,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 # You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 # Useful if you don't use this macOS feature, but accidentally hit cmd-h or cmd-alt-h key
 # Also see: https://nikitabobko.github.io/AeroSpace/goodies#disable-hide-app
-automatically-unhide-macos-hidden-apps = false
-
+automatically-unhide-macos-hidden-apps = true
 # List of workspaces that should stay alive even when they contain no windows,
 # even when they are invisible.
 # This config version is only available since 'config-version = 2'
@@ -109,15 +108,18 @@ on-mode-changed = []
     # '''
 
     # Open iTerm2 with alt + enter
+
     alt-enter = '''exec-and-forget osascript -e '
-        if application "iTerm" is running then
-            tell application "iTerm"
-                create window with default profile
-                activate
-            end tell
-        else
-            activate application "iTerm"
-        end if'
+    tell application "Ghostty"
+      if it is running then
+        tell application "System Events" to tell process "Ghostty"
+          click menu item "New Window" of menu "File" of menu bar 1
+        end tell
+      else
+        activate
+      end if
+    end tell
+    '
     '''
 
     # Open new finder window
@@ -130,10 +132,11 @@ on-mode-changed = []
 
     # Fullscreen
     alt-f = 'fullscreen'
-    
-    alt-space= 'exec-and-forget open -n /Applications/Chromium.app' # Open new chrome windows with alt + space
-    alt-m= 'exec-and-forget open /System/Applications/Music.app' # Open/Goto music.app with alt+m
 
+    alt-space = 'exec-and-forget env MOZ_DISABLE_SAFE_MODE_KEY=1 /Applications/Firefox.app/Contents/MacOS/firefox -P personal -new-window -no-remote'
+    alt-shift-space = 'exec-and-forget env MOZ_DISABLE_SAFE_MODE_KEY=1 /Applications/Firefox.app/Contents/MacOS/firefox -P school  -new-window -no-remote'
+    alt-i= 'exec-and-forget open /System/Applications/Music.app' # Open/Goto music.app with alt+m
+    alt-z= 'exec-and-forget zed' # Open zed
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-slash = 'layout tiles horizontal vertical'
     alt-comma = 'layout accordion horizontal vertical'

@@ -4,4 +4,4 @@ prepend_previewers = [
 ]
 [opener]
 play = [ { run = "mpv %s", orphan = true, for = "unix" } ]
-
+edit = [ { run = 'nvim %s', block = true, desc="nvim" }]

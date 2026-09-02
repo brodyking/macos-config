@@ -1,13 +1,13 @@
-# My MacOS setup and configuration (v4)
+# My MacOS setup and configuration (v5)
 
 This is my personal configuration for MacOS, and a common list of my favorite
 applications and their configurations.
 
-(to see my old v3 setup, [click here](./assets/v3.md))
+(to see my old v4 setup, [click here](./assets/v4.md))
 
 **Last Modified:** May 4, 2026
 
-![Picture of my desktop](./assets/v4.png)
+![Picture of my desktop](./assets/v5.png)
 
 ## Table of contents
 
@@ -40,19 +40,17 @@ applications and their configurations.
 
 Here are some of my most used apps
 
-### Browser - Ungoogled-Chromium
+### Browser - Firefox
 
-I used to use [Zen](https://zen-browser.app/) alot, but I've come to hate
-Firefox's developer tools. If you care about privacy, use
-[Librewolf](https://librewolf.net/).
+This switches every month.
 
-### Terminal - iTerm2
+### Terminal - Ghostty
 
-I use [iTerm2](https://iterm2.com/) because it has a pretty easy setup.
+I use [Ghostty](https://ghostty.org/) because it has a pretty easy setup.
 
 - **Theme/Color Scheme:**
-  [Catppuccin theme for iTerm2](https://github.com/catppuccin/iterm).
-- **Font:** CaskaydiaCove Nerd Font Mono, Regular, 16
+  hubbamax.
+- **Font:** CCodeNewRoman Nerd Font Mono Regular
 
 ### Window Manager and Hotkeys - Aerospace
 
@@ -60,14 +58,11 @@ I used to use [Rectangle](https://rectangleapp.com/), but I have since moved to
 [Aerospace](https://github.com/nikitabobko/AeroSpace). It is a tiling window
 manager similar to i3. All my hotkeys are set through Aerospace aswell.
 
-### Editor - Helix
+### Editor - Neovim 
 
-[Helix](https://helix-editor.com/) is the best text editor ever. Setup is simple
-and easy. Transition from neovim was easy, and lsp support is easy aswell.
+[Neovim](https://helix-editor.com/) is the best text editor ever.
 
-Just be careful, once you start using it, its hard to stop.
-
-- **Theme**: catppuccin_mocha
+- **Theme**: hubbamax
 
 All configuration can be found in this repo.
 
