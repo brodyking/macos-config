@@ -1,5 +1,5 @@
 require("config.lazy")
-
+require("config.lsp")
 -- Use system clipboard
 vim.opt.clipboard = "unnamedplus"
 

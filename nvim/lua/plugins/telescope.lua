@@ -13,7 +13,7 @@ return {
 
 		local builtin = require("telescope.builtin")
 		-- Search
-		vim.keymap.set("n", "<leader>sf", builtin.find_files, { desc = "Search Files" })
+		vim.keymap.set("n", "<leader><leader>", builtin.find_files, { desc = "Search Files" })
 		vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "Search w/ Grep" })
 		vim.keymap.set("n", "<leader>sb", builtin.buffers, { desc = "Search Buffers" })
 		vim.keymap.set("n", "<leader>sh", builtin.help_tags, { desc = "Help Tags" })
